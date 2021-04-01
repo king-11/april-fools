@@ -36,7 +36,9 @@
     <script>
       const main = document.querySelector("main");
       window.addEventListener("load", () => {
-        main.classList.add("active");
+        setTimeout(() => {
+          main.classList.add("active");
+        }, 1000)
         setTimeout(() => {
           window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         }, 3500)
