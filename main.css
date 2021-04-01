@@ -2,23 +2,27 @@ header {
   display: flex;
   justify-content: center;
   font-size: xx-large;
-  padding: 100px 0;
+  padding: 100px 40px;
   animation-name: scaleUp;
   animation-duration: 3s;
   animation-timing-function: cubic-bezier(0.5, 1, 0.89, 1);
   animation-iteration-count: inherit;
   color: aliceblue;
+  margin: 0 auto;
+  text-align: center;
 }
 
 main {
   display: flex;
   justify-content: center;
-  padding: 80px 0;
+  padding: 80px 40px;
+  margin: 0 auto;
   font-size: x-large;
   transition: transform 2s linear 2s, opacity 1s linear 2s;
   transform: scale(0);
   opacity: 0;
   color: white;
+  text-align: center;
 }
 
 main.active {
